@@ -19,10 +19,10 @@
   </style>
 </head>
 
-<body>
-  <header>
+<body class="overflow-y-scroll">
+  <header class="px-5 max-w-screen-xl m-auto">
     <nav
-      class="max-w-screen-md lg:max-w-screen-xl lg:rounded-full m-auto bg-transparent md:bg-[#F85559] py-5 md:px-14 md:py-6 my-12">
+      class="max-w-screen-md lg:max-w-screen-xl lg:rounded-full m-auto bg-transparent md:bg-[#F85559] py-5 md:px-14 md:py-6   md:my-12">
       <div class=" flex justify-between w-full items-center">
         <div class=" hidden lg:flex">
           <ul class="flex text-white text-lg font-medium gap-7">
@@ -34,8 +34,8 @@
         </div>
         <div class=" ">
           <a class="btn  normal-case  bg-transparent border-none md:text-white">
-            <img class="h-10 md:h-14" src="images/logo.png" alt="">
-            <h1 class=" text-2xl md:text-4xl font-bold">Fruit Burst</h1>
+            <img class="h-8 md:h-14" src="images/logo.png" alt="">
+            <h1 class=" text-xl md:text-4xl font-bold">Fruit Burst</h1>
           </a>
         </div>
         <div class=" justify-between items-center hidden lg:flex rounded-full bg-white w-1/3 ">
@@ -64,16 +64,17 @@
         </div>
       </div>
     </nav>
-    <div class="w-fit m-auto relative">
+    <div class=" md:w-full h-auto relative">
 
-      <div class="carousel max-w-screen-xl m-auto rounded-lg">
-        <div id="slide1" class="carousel-item relative w-full">
-          <div class="hero" style="background-image: url(images/banner1.png);">
-            <div class="hero-overlay bg-gradient-to-b from-black to-transparent opacity-50 "></div>
-            <div class="hero-content mt-20 mb-40 text-center text-neutral-content">
+      <div class="carousel relative h-auto w-full lg:max-w-screen-xl rounded-lg">
+        <div id="slide1" class="carousel-item h-fit relative w-full">
+          
+          <div class="hero h-fit w-full" style="background-image: url(images/banner1.png);">
+            <div class="hero-overlay bg-gradient-to-b from-black to-transparent opacity-50 w-full"></div>
+            <div class="hero-content my-7 md:mt-20 md:mb-40 text-center text-neutral-content w-full">
               <div class="max-w-2xl">
-                <h1 class="mb-5 text-white text-7xl font-extrabold">Exotic tastes at your doorstep</h1>
-                <p class=" text-white text-xl font-medium mt-6 mb-8">We supply highly quality organic products</p>
+                <h1 class="mb-5 text-2xl text-white md:text-7xl font-extrabold">Exotic tastes at your doorstep</h1>
+                <p class=" text-white text-sm md:text-xl font-medium mt-6 mb-8">We supply highly quality organic products</p>
                 <button class="btn bg-[#F85559] py-5 px-8 h-auto border-none text-white text-xl font-extrabold capitalize">Shop Now</button>
               </div>
             </div>
@@ -84,12 +85,12 @@
           </div>
         </div>
         <div id="slide2" class="carousel-item relative w-full">
-          <div class="hero " style="background-image: url(images/banner2.png);">
-            <div class="hero-overlay bg-gradient-to-b from-black to-transparent opacity-50 "></div>
-            <div class="hero-content mt-20 mb-40 text-center text-neutral-content">
+          <div class="hero h-fit w-full" style="background-image: url(images/banner1.png);">
+            <div class="hero-overlay bg-gradient-to-b from-black to-transparent opacity-50 w-full"></div>
+            <div class="hero-content my-7 md:mt-20 md:mb-40 text-center text-neutral-content w-full">
               <div class="max-w-2xl">
-                <h1 class="mb-5 text-white text-7xl font-extrabold">Exotic tastes at your doorstep</h1>
-                <p class=" text-white text-xl font-medium mt-6 mb-8">We supply highly quality organic products</p>
+                <h1 class="mb-5 text-2xl text-white md:text-7xl font-extrabold">Exotic tastes at your doorstep</h1>
+                <p class=" text-white text-sm md:text-xl font-medium mt-6 mb-8">We supply highly quality organic products</p>
                 <button class="btn bg-[#F85559] py-5 px-8 h-auto border-none text-white text-xl font-extrabold capitalize">Shop Now</button>
               </div>
             </div>
@@ -100,12 +101,12 @@
           </div>
         </div>
         <div id="slide3" class="carousel-item relative w-full">
-          <div class="hero " style="background-image: url(images/banner3.png);">
-            <div class="hero-overlay bg-gradient-to-b from-black to-transparent opacity-50 "></div>
-            <div class="hero-content mt-20 mb-40 text-center text-neutral-content">
+          <div class="hero h-fit w-full" style="background-image: url(images/banner1.png);">
+            <div class="hero-overlay bg-gradient-to-b from-black to-transparent opacity-50 w-full"></div>
+            <div class="hero-content my-7 md:mt-20 md:mb-40 text-center text-neutral-content w-full">
               <div class="max-w-2xl">
-                <h1 class="mb-5 text-white text-7xl font-extrabold">Exotic tastes at your doorstep</h1>
-                <p class=" text-white text-xl font-medium mt-6 mb-8">We supply highly quality organic products</p>
+                <h1 class="mb-5 text-2xl text-white md:text-7xl font-extrabold">Exotic tastes at your doorstep</h1>
+                <p class=" text-white text-sm md:text-xl font-medium mt-6 mb-8">We supply highly quality organic products</p>
                 <button class="btn bg-[#F85559] py-5 px-8 h-auto border-none text-white text-xl font-extrabold capitalize">Shop Now</button>
               </div>
             </div>
@@ -116,12 +117,12 @@
           </div>
         </div>
         <div id="slide4" class="carousel-item relative w-full">
-          <div class="hero " style="background-image: url(images/banner4.png);">
-            <div class="hero-overlay bg-gradient-to-b from-black to-transparent opacity-50 "></div>
-            <div class="hero-content mt-20 mb-40 text-center text-neutral-content">
+          <div class="hero h-fit w-full" style="background-image: url(images/banner1.png);">
+            <div class="hero-overlay bg-gradient-to-b from-black to-transparent opacity-50 w-full"></div>
+            <div class="hero-content my-7 md:mt-20 md:mb-40 text-center text-neutral-content w-full">
               <div class="max-w-2xl">
-                <h1 class="mb-5 text-white text-7xl font-extrabold">Exotic tastes at your doorstep</h1>
-                <p class=" text-white text-xl font-medium mt-6 mb-8">We supply highly quality organic products</p>
+                <h1 class="mb-5 text-2xl text-white md:text-7xl font-extrabold">Exotic tastes at your doorstep</h1>
+                <p class=" text-white text-sm md:text-xl font-medium mt-6 mb-8">We supply highly quality organic products</p>
                 <button class="btn bg-[#F85559] py-5 px-8 h-auto border-none text-white text-xl font-extrabold capitalize">Shop Now</button>
               </div>
             </div>
@@ -132,7 +133,7 @@
           </div>
         </div>
       </div>
-      <div class="bottom-[-15%] left-[10%] grid grid-cols-5 justify-between px-12 pt-12 pb-6 bg-white absolute gap-10 rounded-lg shadow-2xl shadow-gray-100">
+      <div class="bottom-[-15%] left-[10%] lg:grid grid-cols-5 justify-between px-12 pt-12 pb-6 bg-white absolute gap-10 rounded-lg shadow-2xl shadow-gray-100 hidden ">
         <div class="flex flex-col items-center">
           <img src="images/fruit1.png" alt="">
           <h4 class="text-center text-xl font-medium mt-4">Berries</h4>
@@ -158,36 +159,36 @@
 
   </header>
   <main>
-    <section class="mt-60 max-w-screen-xl m-auto mb-36">
-      <div class="flex justify-between mb-12">
+    <section class="mt-6 md:mt-60 max-w-screen-xl m-auto mb-36 md:mx-auto ">
+      <div class="flex flex-col md:flex-row justify-between mb-12">
         <div class="max-w-2xl">
-          <h3 class="text-[#121212] text-5xl font-extrabold">Deal of the day</h3>
-          <p class="text-slate-500 text-base font-medium mt-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          <h3 class="text-[#121212] text-center md:text-left text-xl md:text-5xl font-extrabold">Deal of the day</h3>
+          <p class="text-slate-500 text-sm md:text-base text-center md:text-left m-auto md:m-0 font-medium mt-6 max-w-[270px] md:max-w-full ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
-        <div class="flex gap-6 items-center text-center">
+        <div class="flex gap-3 md:gap-6 items-center justify-center text-center mt-5 md:mt-0">
           <div>
-            <h1 class="text-[#121212] text-5xl font-extrabold ">29</h1>
+            <h1 class="text-[#121212] text-2xl md:text-5xl font-extrabold ">29</h1>
             <h3 class="text-slate-500 font-medium mt-2">Days</h3>
           </div>
-          <i class="fa-solid fa-ellipsis-vertical text-xl mb-5"></i>
+          <i class="fa-solid fa-ellipsis-vertical text-xs md:text-xl mb-7 md:mb-5"></i>
           <div>
-            <h1 class="text-[#121212] text-5xl font-extrabold">15</h1>
+            <h1 class="text-[#121212] text-2xl md:text-5xl font-extrabold">15</h1>
             <h3 class="text-slate-500 text-base font-medium mt-2">Hours</h3>
           </div>
-          <i class="fa-solid fa-ellipsis-vertical text-xl mb-5"></i>
+          <i class="fa-solid fa-ellipsis-vertical text-xs md:text-xl mb-7 md:mb-5"></i>
           <div>
-            <h1 class="text-[#121212] text-5xl font-extrabold">25</h1>
+            <h1 class="text-[#121212] text-2xl md:text-5xl font-extrabold">25</h1>
             <h3 class="text-slate-500 text-base font-medium mt-2">minutes</h3>
           </div>
-          <i class="fa-solid fa-ellipsis-vertical text-xl mb-5"></i>
+          <i class="fa-solid fa-ellipsis-vertical text-xs md:text-xl mb-7 md:mb-5"></i>
           <div>
-            <h1 class="text-[#121212] text-5xl font-extrabold">08</h1>
+            <h1 class="text-[#121212] text-2xl md:text-5xl font-extrabold">08</h1>
             <h3 class="text-slate-500 text-base font-medium mt-2">Seconds</h3>
           </div>
         </div>
       </div>
-      <div class="grid grid-cols-4 gap-6 mb-12">
-        <div class="flex flex-col items-center max-w-screen-sm py-12 border rounded-md">
+      <div class="grid justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12 mx-5">
+        <div class="flex flex-col items-center w-full py-12 border rounded-md">
           <img class="h-32" src="images/fruit6.png" alt="">
           <h3 class="text-2xl font-bold mt-12  p-6 border-b">12.90$ - 18.85$</h3>
           <p class="text-slate-500 text-base font-medium my-6">Apples</p>
@@ -198,9 +199,9 @@
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
           </div>
-          <a class="mt-8 text-lg font-bold text-orange-500" href="">Details</a>
+          <label for="my_modal_1" class="mt-8 text-lg font-bold text-orange-500" >Details</label>
         </div>
-        <div class="flex flex-col items-center max-w-screen-sm py-12 border rounded-md">
+        <div class="flex flex-col items-center w-full py-12 border rounded-md">
           <img class="h-32" src="images/fruit7.png" alt="">
           <h3 class="text-2xl font-bold mt-12  p-6 border-b">12.90$ - 18.85$</h3>
           <p class="text-slate-500 text-base font-medium my-6">Oranges</p>
@@ -211,9 +212,9 @@
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
           </div>
-          <a class="mt-8 text-lg font-bold text-orange-500" href="">Details</a>
+          <label for="my_modal_2" class="mt-8 text-lg font-bold text-orange-500" >Details</label>
         </div>
-        <div class="flex flex-col items-center max-w-screen-sm py-12 border rounded-md">
+        <div class="flex flex-col items-center w-full py-12 border rounded-md">
           <img class="h-32" src="images/fruit8.png" alt="">
           <h3 class="text-2xl font-bold mt-12  p-6 border-b">12.90$ - 18.85$</h3>
           <p class="text-slate-500 text-base font-medium my-6">Red Dragon</p>
@@ -224,9 +225,9 @@
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
           </div>
-          <a class="mt-8 text-lg font-bold text-orange-500" href="">Details</a>
+          <label for="my_modal_3" class="mt-8 text-lg font-bold text-orange-500" >Details</label>
         </div>
-        <div class="flex flex-col items-center max-w-screen-sm py-12 border rounded-md">
+        <div class="flex flex-col items-center w-full py-12 border rounded-md">
           <img class="h-32" src="images/fruit9.png" alt="">
           <h3 class="text-2xl font-bold mt-12  p-6 border-b">12.90$ - 18.85$</h3>
           <p class="text-slate-500 text-base font-medium my-6">Banana</p>
@@ -237,13 +238,90 @@
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
           </div>
-          <a class="mt-8 text-lg font-bold text-orange-500" href="">Details</a>
+          <label for="my_modal_4" class="mt-8 text-lg font-bold text-orange-500" >Details</label>
         </div>
       </div>
       <div class="flex justify-center">
         <button class="btn bg-[#F85559] py-5 px-8 h-auto border-none text-white text-xl font-extrabold capitalize hover:text-slate-600">Shop All</button>
       </div>
     </section>
+    
+<input type="checkbox" id="my_modal_1" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box flex flex-col max-w-[700px] min-h-[700px] items-center justify-center">
+    <img class="w-80" src="images/fruit6.png" alt="">
+    <h3 class=" text-4xl font-extrabold">Apples</h3>
+    <p class="w-2/3 text-center py-4 text-base font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    <div class="text-orange-200 text-2xl">
+      <i class="fa-solid fa-star text-orange-500"></i>
+      <i class="fa-solid fa-star text-orange-500"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </div>
+    <div class="modal-action">
+      <label for="my_modal_1" class="btn border-[#F85559] text-[#F85559] py-5 px-8 h-auto  bg-white text-xl font-extrabold capitalize">Close!</label>
+      <button class="btn bg-[#F85559] py-5 px-8 h-auto border-none text-white text-xl font-extrabold capitalize">Shop Now</button>
+    </div>
+  </div>
+</div>
+<input type="checkbox" id="my_modal_2" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box flex flex-col max-w-[700px] min-h-[700px] items-center justify-center">
+    <img class="w-80" src="images/fruit7.png" alt="">
+    <h3 class=" text-4xl font-extrabold">Orange</h3>
+    <p class="w-2/3 text-center py-4 text-base font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    <div class="text-orange-200 text-2xl">
+      <i class="fa-solid fa-star text-orange-500"></i>
+      <i class="fa-solid fa-star text-orange-500"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </div>
+    <div class="modal-action">
+      <label for="my_modal_2" class="btn border-[#F85559] text-[#F85559] py-5 px-8 h-auto  bg-white text-xl font-extrabold capitalize">Close!</label>
+      <button class="btn bg-[#F85559] py-5 px-8 h-auto border-none text-white text-xl font-extrabold capitalize">Shop Now</button>
+    </div>
+  </div>
+</div>
+<input type="checkbox" id="my_modal_3" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box flex flex-col max-w-[700px] min-h-[700px] items-center justify-center">
+    <img class="w-80" src="images/fruit8.png" alt="">
+    <h3 class=" text-4xl font-extrabold">Red dragon</h3>
+    <p class="w-2/3 text-center py-4 text-base font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    <div class="text-orange-200 text-2xl">
+      <i class="fa-solid fa-star text-orange-500"></i>
+      <i class="fa-solid fa-star text-orange-500"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </div>
+    <div class="modal-action">
+      <label for="my_modal_3" class="btn border-[#F85559] text-[#F85559] py-5 px-8 h-auto  bg-white text-xl font-extrabold capitalize">Close!</label>
+      <button class="btn bg-[#F85559] py-5 px-8 h-auto border-none text-white text-xl font-extrabold capitalize">Shop Now</button>
+    </div>
+  </div>
+</div>
+<input type="checkbox" id="my_modal_4" class="modal-toggle" />
+<div class="modal overflow-y-scroll">
+  <div class="modal-box flex flex-col max-w-[700px] min-h-[700px] items-center justify-center">
+    <img class="w-80" src="images/fruit9.png" alt="">
+    <h3 class=" text-4xl font-extrabold">Banana</h3>
+    <p class="w-2/3 text-center py-4 text-base font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    <div class="text-orange-200 text-2xl">
+      <i class="fa-solid fa-star text-orange-500"></i>
+      <i class="fa-solid fa-star text-orange-500"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </div>
+    <div class="modal-action">
+      <label for="my_modal_4" class="btn border-[#F85559] text-[#F85559] py-5 px-8 h-auto  bg-white text-xl font-extrabold capitalize">Close!</label>
+      <button class="btn bg-[#F85559] py-5 px-8 h-auto border-none text-white text-xl font-extrabold capitalize">Shop Now</button>
+    </div>
+  </div>
+</div>
   </main>
 
 
